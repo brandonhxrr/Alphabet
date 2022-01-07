@@ -1,0 +1,12 @@
+static void generarLenguaje2(int np, int l){
+        String p = "";
+        for(int j = 0; j < np; j++){
+            L1[j] = ""; 
+            for(int i = 0; i < l; i++){
+                L1[j] += alfabetoM[(int) (Math.random()* size)];
+            }
+            
+            L2.add("");
+        }
+        
+    }
